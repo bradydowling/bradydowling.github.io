@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+
+    CountDownTimer('08/14/2014 6:1 PM');
+
+    function CountDownTimer(dt)
+    {
+        var end = new Date(dt);
+
+        var _second = 1000;
+        var _minute = _second * 60;
+        var _hour = _minute * 60;
+        var _day = _hour * 24;
+        var timer;
+
+        function showRemaining() {
+            var now = new Date();
+            var distance = end - now;
+            if (distance < 0) {
+
+                clearInterval(timer);
+                document.getElementById('days').innerHTML = 'EXPIRED!';
+
+                return;
+            }
+            var days = Math.floor(distance / _day);
+            var hours = Math.floor((distance % _day) / _hour);
+            var minutes = Math.floor((distance % _hour) / _minute);
+            var seconds = Math.floor((distance % _minute) / _second);
+            if(seconds < 10){
+            	seconds = '0' + seconds;
+            }
+            var day
+
+            document.getElementById('days').innerHTML = days + '</br>days';
+            document.getElementById('hours').innerHTML = hours + '</br>hours';
+            document.getElementById('minutes').innerHTML = minutes + '</br>minutes';
+            document.getElementById('seconds').innerHTML = seconds + '</br>seconds';
+        }
+
+        timer = setInterval(showRemaining, 1000);
+    }
+
+</script>
+<style type="text/css">
+    body {
+    	background-image: url('img/pizza.jpg');
+    	background-size: cover;
+    }
+    .circle {
+        box-sizing: border-box;
+        width: 100px;
+        height: 100px;
+        border: 5px solid black;
+        border-radius: 100px;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        float: left;
+    }
+    .content {
+    	text-align: center;
+    }
+</style>
+<title>Countdown</title>
+</head>
+
+<body>
+<div class="content">
+    <h1>The Blake Countdown</h1>
+    <p id="countdown"></p>
+    <div class="circle" id="days"></div>
+    <div class="circle" id="hours"></div>
+    <div class="circle" id="minutes"></div>
+    <div class="circle" id="seconds"></div>
+</div>
+
+</body>
+</html>
