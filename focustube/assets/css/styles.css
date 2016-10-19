@@ -1,0 +1,649 @@
+.features-boxed {
+    color: #313437;
+    background-color: #eee
+}
+
+.features-boxed p {
+    color: #7d8285
+}
+
+.features-boxed h2 {
+    font-weight: 700;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    color: inherit
+}
+
+@media (max-width:767px) {
+    .features-boxed h2 {
+        margin-bottom: 25px;
+        padding-top: 25px;
+        font-size: 24px
+    }
+    .highlight-phone {
+        text-align: center
+    }
+}
+
+.features-boxed .intro {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto
+}
+
+.features-boxed .intro p {
+    margin-bottom: 0
+}
+
+.features-boxed .features {
+    padding: 50px 0
+}
+
+.features-boxed .item {
+    text-align: center
+}
+
+.features-boxed .item .box {
+    text-align: center;
+    padding: 30px;
+    background-color: #fff;
+    margin-bottom: 30px;
+    border-radius: 5px
+}
+
+.features-boxed .item .icon {
+    font-size: 60px;
+    color: #1485ee;
+    margin-top: 20px;
+    margin-bottom: 35px
+}
+
+.features-boxed .item .name {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 8px;
+    margin-top: 0;
+    color: inherit
+}
+
+.features-boxed .item .description {
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 20px
+}
+
+.footer-basic {
+    padding: 40px 0;
+    background-color: #fff;
+    color: #4b4c4d
+}
+
+.footer-basic ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0
+}
+
+.footer-basic li {
+    padding: 0 10px
+}
+
+.footer-basic ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: .8
+}
+
+.footer-basic ul a:hover {
+    opacity: 1
+}
+
+.footer-basic .social {
+    text-align: center;
+    padding-bottom: 25px
+}
+
+.footer-basic .social>a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin: 0 8px;
+    color: inherit;
+    opacity: .75
+}
+
+.footer-basic .social>a:hover {
+    opacity: .9
+}
+
+.footer-basic .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+    margin-bottom: 0
+}
+
+div.jumbotron.hero-technology {
+    color: #fff;
+    text-align: center;
+    background: url(../../assets/img/congruent_outline.png) center;
+    background-size: stretch;
+    padding-top: 100px;
+    padding-bottom: 100px
+}
+
+h1.hero-title,
+h2.hero-title,
+h3.hero-title {
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .3);
+    color: #fff;
+    font-weight: 500
+}
+
+p.hero-subtitle {
+    max-width: 600px;
+    margin: 25px auto;
+    padding: 10px 15px;
+    background-color: rgba(0, 0, 0, .3);
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .7);
+    font-weight: 500
+}
+
+.highlight-clean .buttons .btn,
+.highlight-phone .intro .btn {
+    border: none;
+    box-shadow: none;
+    text-shadow: none;
+    text-transform: uppercase;
+    letter-spacing: .4px
+}
+
+.highlight-clean {
+    color: #fff;
+    background-color: #fff;
+    padding: 50px 0
+}
+
+.highlight-clean p {
+    color: #fff
+}
+
+.highlight-clean h2 {
+    font-weight: 700;
+    margin-bottom: 25px;
+    line-height: 1.5;
+    padding-top: 0;
+    margin-top: 0;
+    color: inherit
+}
+
+.highlight-clean .intro {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto 25px
+}
+
+.highlight-clean .buttons {
+    text-align: center
+}
+
+.highlight-clean .buttons .btn {
+    padding: 16px 32px;
+    margin: 6px;
+    background: 0 0;
+    opacity: .9;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 1;
+    outline: 0
+}
+
+.highlight-clean .buttons .btn:hover {
+    opacity: 1
+}
+
+.highlight-clean .buttons .btn:active {
+    transform: translateY(1px)
+}
+
+.highlight-clean .buttons .btn-primary {
+    background-color: #1b68da;
+    color: #fff
+}
+
+.highlight-clean .buttons .btn-default {
+    background-color: #e6e7ea;
+    color: #333
+}
+
+.highlight-phone {
+    color: #313437;
+    background-color: #eef4f7;
+    padding: 50px 0 55px;
+    overflow: hidden
+}
+
+.highlight-phone p {
+    color: #7d8285
+}
+
+.highlight-phone h2 {
+    font-weight: 700;
+    margin-bottom: 35px;
+    line-height: 1.5;
+    padding-top: 0;
+    margin-top: 0;
+    color: inherit
+}
+
+.highlight-phone .intro {
+    font-size: 18px;
+    max-width: 500px;
+    line-height: 1.5
+}
+
+@media (max-width:767px) {
+    .highlight-phone .intro {
+        max-width: none
+    }
+}
+
+.highlight-phone .intro p {
+    margin-bottom: 35px
+}
+
+.highlight-phone .intro .btn {
+    padding: 16px 32px;
+    background: 0 0;
+    opacity: .9;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 1
+}
+
+.highlight-phone .intro .btn:hover {
+    opacity: 1
+}
+
+.highlight-phone .intro .btn:active {
+    transform: translateY(1px)
+}
+
+.highlight-phone .iphone-mockup .screen:before,
+.iphone-mockup .screen:before,
+.macbook-mockup .screen:before {
+    transform: rotate(-19deg);
+    content: ''
+}
+
+.highlight-phone .intro .btn-primary {
+    background-color: #055ada;
+    color: #fff
+}
+
+.highlight-phone .iphone-mockup {
+    position: relative;
+    max-width: 260px;
+    margin-top: -30px;
+    margin-bottom: -230px
+}
+
+.highlight-phone .iphone-mockup img.device {
+    width: 100%;
+    height: auto
+}
+
+.highlight-phone .iphone-mockup .screen {
+    position: absolute;
+    width: 88%;
+    height: 77%;
+    top: 12%;
+    border-radius: 2px;
+    left: 6%;
+    border: 1px solid #444;
+    overflow: hidden;
+    background: url(../../assets/img/screen-content-iphone-6.jpg) center;
+    background-size: cover
+}
+
+.highlight-phone .iphone-mockup .screen:before {
+    background-color: #fff;
+    position: absolute;
+    width: 70%;
+    height: 140%;
+    top: -12%;
+    right: -60%;
+    opacity: .2
+}
+
+.map-clean {
+    color: #313437;
+    background-color: #fff
+}
+
+.map-clean p {
+    color: #7d8285
+}
+
+.map-clean h2 {
+    font-weight: 700;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    color: inherit
+}
+
+@media (max-width:767px) {
+    .map-clean h2 {
+        margin-bottom: 25px;
+        padding-top: 25px;
+        font-size: 24px
+    }
+}
+
+.map-clean .intro {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto 40px
+}
+
+.map-clean iframe {
+    background-color: #eee
+}
+
+div.macbook-mockup {
+    position: relative;
+    max-width: 1000px;
+    margin: 20px
+}
+
+.macbook-mockup img.device {
+    width: 100%;
+    height: auto
+}
+
+.macbook-mockup .screen {
+    position: absolute;
+    width: 76%;
+    height: 82.5%;
+    top: 6.5%;
+    border-radius: 4px;
+    left: 12%;
+    overflow: hidden;
+    background: url(screen-content-macbook.jpg) center;
+    background-size: cover
+}
+
+.macbook-mockup .screen:before {
+    background-color: #fff;
+    position: absolute;
+    width: 70%;
+    height: 140%;
+    top: -26%;
+    right: -39%;
+    opacity: .1
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: none
+}
+
+.navbar-brand .glyphicon {
+    margin-right: 6px
+}
+
+.hero {
+    background: url(city_bg.jpg) center no-repeat;
+    background-size: cover;
+    border: none
+}
+
+@media (min-width:992px) {
+    .hero .get-it {
+        text-align: right;
+        margin-top: 80px;
+        padding-right: 30px
+    }
+}
+
+.icon-feature,
+.site-footer,
+.testimonials blockquote {
+    text-align: center
+}
+
+@media (max-width:992px) {
+    .hero .get-it,
+    .hero .phone-preview {
+        text-align: center
+    }
+}
+
+.hero .get-it h1,
+.hero .get-it p {
+    color: #fff;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, .3);
+    margin-bottom: 40px
+}
+
+.hero .get-it .btn {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-shadow: none
+}
+
+div.iphone-mockup {
+    position: relative;
+    max-width: 250px;
+    margin: 20px;
+    display: inline-block
+}
+
+.iphone-mockup img.device {
+    width: 100%;
+    height: auto
+}
+
+.iphone-mockup .screen {
+    position: absolute;
+    width: 88%;
+    height: 77%;
+    top: 12%;
+    border-radius: 2px;
+    left: 6%;
+    border: 1px solid #444;
+    overflow: hidden;
+    background: url(../../assets/img/screen-content-iphone-6.jpg) center;
+    background-size: cover
+}
+
+.iphone-mockup .screen:before {
+    background-color: #fff;
+    position: absolute;
+    width: 70%;
+    height: 140%;
+    top: -12%;
+    right: -60%;
+    opacity: .2
+}
+
+.icon-feature .glyphicon {
+    font-size: 60px
+}
+
+section.features {
+    background-color: #369;
+    padding: 40px 0;
+    color: #fff
+}
+
+.features h2 {
+    color: #fff
+}
+
+.features .icon-features {
+    margin-top: 15px
+}
+
+section.testimonials {
+    margin: 50px 0
+}
+
+.site-footer {
+    padding: 20px 0
+}
+
+@media (min-width:768px) {
+    .site-footer h5 {
+        text-align: left
+    }
+}
+
+.site-footer h5 {
+    color: inherit;
+    font-size: 20px
+}
+
+.site-footer .social-icons a:hover {
+    opacity: 1
+}
+
+.site-footer .social-icons a {
+    display: inline-block;
+    width: 32px;
+    border: none;
+    font-size: 20px;
+    border-radius: 50%;
+    margin: 4px;
+    color: #fff;
+    text-align: center;
+    background-color: #798FA5;
+    height: 32px;
+    opacity: .8;
+    line-height: 32px
+}
+
+.simple-slider .swiper-slide {
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center
+}
+
+.simple-slider .swiper-button-next,
+.simple-slider .swiper-button-prev {
+    width: 50px;
+    margin-left: 20px;
+    margin-right: 20px
+}
+
+.testimonials-clean {
+    color: #313437;
+    background-color: #fff
+}
+
+.testimonials-clean h2 {
+    font-weight: 700;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    color: inherit
+}
+
+@media (max-width:767px) {
+    .simple-slider .swiper-button-next,
+    .simple-slider .swiper-button-prev {
+        display: none
+    }
+    .simple-slider .swiper-slide {
+        height: 360px
+    }
+    .testimonials-clean h2 {
+        margin-bottom: 25px;
+        padding-top: 25px;
+        font-size: 24px
+    }
+}
+
+.testimonials-clean .intro {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto
+}
+
+.testimonials-clean .intro p {
+    margin-bottom: 0
+}
+
+.testimonials-clean .people {
+    padding: 50px 0 20px
+}
+
+.testimonials-clean .item {
+    margin-bottom: 32px
+}
+
+@media (min-width:768px) {
+    .site-footer .social-icons {
+        text-align: right
+    }
+    .testimonials-clean .item {
+        height: 220px
+    }
+}
+
+.testimonials-clean .item .box {
+    padding: 30px;
+    background-color: #eee;
+    position: relative;
+    border-radius: 5px
+}
+
+.testimonials-clean .item .box:after {
+    content: '';
+    position: absolute;
+    left: 30px;
+    bottom: -24px;
+    width: 0;
+    height: 0;
+    border: 15px solid transparent;
+    border-width: 12px 15px;
+    border-top-color: #fff
+}
+
+.testimonials-clean .item .author {
+    margin-top: 28px;
+    padding-left: 25px
+}
+
+.testimonials-clean .item .name {
+    font-weight: 700;
+    margin-bottom: 2px;
+    color: inherit
+}
+
+.testimonials-clean .item .title {
+    font-size: 13px;
+    color: #9da9ae
+}
+
+.testimonials-clean .item .description {
+    font-size: 15px;
+    margin-bottom: 0
+}
+
+.testimonials-clean .item img {
+    max-width: 40px;
+    float: left;
+    margin-right: 12px;
+    margin-top: -5px
+}
