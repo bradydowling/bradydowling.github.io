@@ -53,7 +53,7 @@
 
 .features-boxed .item .icon {
     font-size: 60px;
-    color: #1485ee;
+    color: #333333;
     margin-top: 20px;
     margin-bottom: 35px
 }
@@ -139,6 +139,18 @@ div.jumbotron.hero-technology {
     background-size: stretch;
     padding-top: 100px;
     padding-bottom: 100px
+}
+
+.jumbotron .macbook {
+  position: relative;
+}
+
+.macbook iframe {
+  position: absolute; 
+  top: 6%; 
+  left: 12%;
+  width: 76.2%;
+  height: 83%;
 }
 
 h1.hero-title,
