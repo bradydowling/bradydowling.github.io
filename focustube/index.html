@@ -9,31 +9,32 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
-    <link rel="stylesheet" href="assets/css/styles.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
-            <div class="navbar-header"><a class="navbar-brand navbar-link" href="#"><i class="glyphicon glyphicon-text-height"></i> Truthful Apps</a>
-                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-            </div>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active" role="presentation"><a href="/">Home </a></li>
-                    <li role="presentation"><a href="/">Apps </a></li>
-                    <li role="presentation"><a href="/">About </a></li>
+                    <li role="presentation"><a class="page-scroll" href="#features">Features </a></li>
+                    <li role="presentation"><a class="page-scroll" href="#download">Download </a></li>
                     <li role="presentation"><a href="/">Contact </a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="jumbotron hero-technology" style="padding-top:50px;padding-bottom:50px;">
+    <div class="jumbotron hero-technology" style="padding-top:50px;padding-bottom:50px;background-color:#333333">
         <div class="container">
-            <div class="col-md-8 col-md-offset-2">
+            <div class="col-md-10 col-md-offset-1">
                 <h1 class="hero-title">FocusTube </h1>
                 <p class="hero-subtitle"><em>YouTube can be great for learning...when you remove the distractions. Take back your free will and install FocusTube.</em></p>
-                <p><a class="btn btn-danger btn-lg hero-button" role="button" href="https://chrome.google.com/webstore/detail/focustube/cljdhmefdicljlcnkblaedkcjbfkpkmc">Get FocusTube</a></p><img class="img-responsive" src="assets/img/macbook.svg" style="margin-top:50px;"></div>
+                <p><a class="btn btn-danger btn-lg hero-button" role="button" href="https://chrome.google.com/webstore/detail/focustube/cljdhmefdicljlcnkblaedkcjbfkpkmc">Get FocusTube</a></p>
+                <div class="macbook">
+                    <img class="img-responsive" src="assets/img/macbook.svg" style="margin-top:50px;">
+                    <iframe src="https://www.youtube.com/embed/UX0mqLVlauk" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
         </div>
     </div>
     <div class="simple-slider" style="padding:50px;">
@@ -50,7 +51,7 @@
             <div class="swiper-button-next"></div>
         </div>
     </div>
-    <div class="features-boxed">
+    <div class="features-boxed" id="features">
         <div class="container">
             <div class="intro">
                 <h2 class="text-center">Features </h2>
@@ -114,11 +115,11 @@
                 </div>
                 <div class="col-md-4 col-sm-6 item">
                     <div class="box">
-                        <p class="description">I &lt;3 FocusTube, such a good extension. I'm so sick of bad website comments in general. It seems most of the internet has become as dumb as YouTube comments. </p>
+                        <p class="description">Lots of social media is brought down by comments and I'm tired of bad website comments in general. I &lt;3 FocusTube, such a good extension.</p>
                     </div>
                     <div class="author"><img class="img-circle" src="assets/img/tim.jpeg">
                         <h5 class="name">Tim R.</h5>
-                        <p class="title">Amazon Software Developer</p>
+                        <p class="title">Software Developer, Amazon</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 item">
@@ -133,7 +134,7 @@
             </div>
         </div>
     </div>
-    <div class="highlight-clean" style="background-color:#dd5a56;">
+    <div class="highlight-clean" style="background-color:#dd5a56;" id="download">
         <div class="container">
             <div class="intro">
                 <h2 class="text-center">FocusTube </h2>
@@ -158,6 +159,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
     <script src="assets/js/script.min.js"></script>
+
+    <!-- Smooth scrolling from nav -->
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/scrolling-nav.js"></script>
 </body>
 
 </html>
