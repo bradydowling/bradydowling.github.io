@@ -132,7 +132,7 @@
     margin-bottom: 0
 }
 
-div.jumbotron.hero-technology {
+.jumbotron.hero-technology, #download {
     color: #fff;
     text-align: center;
     background: url(../../assets/img/congruent_outline.png) center;
@@ -413,12 +413,6 @@ div.macbook-mockup {
 
 .navbar-brand .glyphicon {
     margin-right: 6px
-}
-
-.hero {
-    background: url(city_bg.jpg) center no-repeat;
-    background-size: cover;
-    border: none
 }
 
 @media (min-width:992px) {
