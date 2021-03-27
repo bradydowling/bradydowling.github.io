@@ -8,8 +8,6 @@ console.log(`WHS stands for ${theW} high school`);
 
 console.timeEnd("timer");
 
-// https://jsonplaceholder.typicode.com/posts
-
 function checkDataItem(item) {
   if (item.body.indexOf("architect") > -1) {
     console.error("Some bad stuff happened");
