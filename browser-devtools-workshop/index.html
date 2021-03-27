@@ -18,6 +18,12 @@
       main {
         margin: 20px;
       }
+      #misplaced {
+        height: 40px;
+        background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+        position: absolute;
+        left: -1000px;
+      }
     </style>
   </head>
   <body>
@@ -30,6 +36,7 @@
         </p>
         <p>Edsger W. Dijkstra</p>
       </blockquote>
+      <img alt="ERROR: We've reached an unreachable state. Anything is possible. The limits were in our heads all along. Follow your dreams." src="/wiki/images/c/cc/unreachable_state.png" width="355" height="465">
       <h2 id="debugging-in-code">Debugging in code</h2>
       <p>Log statements:</p>
       <ul>
@@ -59,26 +66,25 @@
       <ul>
         <li>Set breakpoint</li>
         <li>
-          Set conditional breakpoint <strong>Challenge:</strong> There’s some code
-          to display the birthday for an array of users. They’re all fine besides
-          this one. I know the user’s name is “Mark” but we have thousands of
-          users and the API returns them in a different order each time. Set a
-          conditional breakpoint in the code that iterates over the users and then
-          find the bug. Is it an issue with the code or with the data?
+          Set conditional breakpoint <strong>Challenge:</strong> There’s some code to get data from an API endpoint (look for the word fetch). It tells if the data is good or bad. Set a conditional breakpoint so it only stops within the for loop when the data is bad.
         </li>
       </ul>
+      <button id="getter">Click me to get the data</button>
       <p>While Debugging:</p>
       <ul>
         <li>Watch expressions</li>
         <li>Scope</li>
         <li>
-          Console/debug terminal <strong>Challenge:</strong> If you open the browser console, you'll notice there's a bold claim about the meaning of an acronym. Set a breakpoint in the right spot then change the value of a variable in order to fix the statement. Take a screenshot of the log after your change.
+          Console/debug terminal <strong>Challenge:</strong> If you open the browser console, you'll notice there's a bold claim about the meaning of an acronym. Set a breakpoint in the right spot then use the console to change the value of a variable in order to fix the statement. Take a screenshot of the log after your change.
         </li>
       </ul>
       <h3 id="css">CSS</h3>
       <p>
         Styles editor <strong>Challenge:</strong> Open the console and look for the HTML that is not showing on the page. Look through the CSS for that element and find the rule to disable to get the element to show in the actual page. What rule was it?
       </p>
+      <!-- Here's your hidden element 👇 -->
+      <div id="misplaced">Can you see me?</div>
+      <!-- Here's your hidden element 👆 -->
     </main>
     <script src="index.js"></script>
   </body>
