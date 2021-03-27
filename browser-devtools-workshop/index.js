@@ -16,13 +16,6 @@ console.log(`WHS stands for ${theW} high school`);
 
 console.timeEnd("timer");
 
-function isDataBad(item) {
-  if (item.body.indexOf("architect") > -1) {
-    return true;
-  }
-  return false;
-}
-
 function getData() {
   fetch('https://jsonplaceholder.typicode.com/posts')
     .then(response => response.json())
@@ -33,3 +26,6 @@ function getData() {
       }
     });
 }
+
+const button = document.getElementById("getter");
+button.addEventListener("click", getData);
