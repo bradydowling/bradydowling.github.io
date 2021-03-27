@@ -9,68 +9,74 @@
       #banner {
         color: white;
         background-color: #F17219;
-        padding: 20px;
+        padding: 20px 20px 20px 5%;
+        font-family: sans-serif;
+      }
+      main {
+        margin: 20px;
       }
     </style>
   </head>
   <body>
     <div id="banner"><h1>Browser Devtools Workshop</h1></div>
-    <blockquote>
+    <main>
+      <blockquote>
+        <p>
+          “If debugging is the process of removing bugs, then programming must be
+          the process of putting them in.”
+        </p>
+        <p>Edsger W. Dijkstra</p>
+      </blockquote>
+      <h2 id="debugging-in-code">Debugging in code</h2>
+      <p>Log statements:</p>
+      <ul>
+        <li><code>console.log;</code></li>
+        <li><code>console.time;</code></li>
+        <li><code>console.error;</code></li>
+        <li><code>console.warn;</code></li>
+        <li><code>if (someBoolean) console.log;</code></li>
+      </ul>
+      <p>Debugger statements:</p>
+      <ul>
+        <li><code>debugger;</code></li>
+        <li><code>if (someBoolean) debugger;</code></li>
+      </ul>
+      <h2 id="debugging-in-devtools-or-ide-debugger-">
+        Debugging in devtools (or IDE debugger)
+      </h2>
+      <h3 id="html">HTML</h3>
+      <p>Inspector</p>
+      <h3 id="javascript">JavaScript</h3>
+      <p>Logs:</p>
+      <ul>
+        <li>Inserting logs</li>
+        <li>Inserting conditional logs</li>
+      </ul>
+      <p>Breakpoints:</p>
+      <ul>
+        <li>Set breakpoint</li>
+        <li>
+          Set conditional breakpoint <strong>Challenge:</strong> There’s some code
+          to display the birthday for an array of users. They’re all fine besides
+          this one. I know the user’s name is “Mark” but we have thousands of
+          users and the API returns them in a different order each time. Set a
+          conditional breakpoint in the code that iterates over the users and then
+          find the bug. Is it an issue with the code or with the data?
+        </li>
+      </ul>
+      <p>While Debugging:</p>
+      <ul>
+        <li>Watch expressions</li>
+        <li>Scope</li>
+        <li>
+          Console/debug terminal <strong>Challenge:</strong> If you open the browser console, you'll notice there's a bold claim about the meaning of an acronym. Set a breakpoint in the right spot then change the value of a variable in order to fix the statement. Take a screenshot of the log after your change.
+        </li>
+      </ul>
+      <h3 id="css">CSS</h3>
       <p>
-        “If debugging is the process of removing bugs, then programming must be
-        the process of putting them in.”
+        Styles editor <strong>Challenge:</strong> Open the console and look for the HTML that is not showing on the page. Look through the CSS for that element and find the rule to disable to get the element to show in the actual page. What rule was it?
       </p>
-      <p>Edsger W. Dijkstra</p>
-    </blockquote>
-    <h2 id="debugging-in-code">Debugging in code</h2>
-    <p>Log statements:</p>
-    <ul>
-      <li><code>console.log;</code></li>
-      <li><code>console.time;</code></li>
-      <li><code>console.error;</code></li>
-      <li><code>console.warn;</code></li>
-      <li><code>if (someBoolean) console.log;</code></li>
-    </ul>
-    <p>Debugger statements:</p>
-    <ul>
-      <li><code>debugger;</code></li>
-      <li><code>if (someBoolean) debugger;</code></li>
-    </ul>
-    <h2 id="debugging-in-devtools-or-ide-debugger-">
-      Debugging in devtools (or IDE debugger)
-    </h2>
-    <h3 id="html">HTML</h3>
-    <p>Inspector</p>
-    <h3 id="javascript">JavaScript</h3>
-    <p>Logs:</p>
-    <ul>
-      <li>Inserting logs</li>
-      <li>Inserting conditional logs</li>
-    </ul>
-    <p>Breakpoints:</p>
-    <ul>
-      <li>Set breakpoint</li>
-      <li>
-        Set conditional breakpoint <strong>Challenge:</strong> There’s some code
-        to display the birthday for an array of users. They’re all fine besides
-        this one. I know the user’s name is “Mark” but we have thousands of
-        users and the API returns them in a different order each time. Set a
-        conditional breakpoint in the code that iterates over the users and then
-        find the bug. Is it an issue with the code or with the data?
-      </li>
-    </ul>
-    <p>While Debugging:</p>
-    <ul>
-      <li>Watch expressions</li>
-      <li>Scope</li>
-      <li>
-        Console/debug terminal <strong>Challenge:</strong> If you open the browser console, you'll notice there's a bold claim about the meaning of an acronym. Set a breakpoint in the right spot then change the value of a variable in order to fix the statement. Take a screenshot of the log after your change.
-      </li>
-    </ul>
-    <h3 id="css">CSS</h3>
-    <p>
-      Styles editor <strong>Challenge:</strong> Open the console and look for the HTML that is not showing on the page. Look through the CSS for that element and find the rule to disable to get the element to show in the actual page. What rule was it?
-    </p>
+    </main>
     <script src="index.js"></script>
   </body>
 </html>
